@@ -1,0 +1,35 @@
+/* CSS file for youthmedia-RSS integration
+   
+/*   1. define your handler in the widget configuration                  */
+/*   2. add the handler names here                                       */
+/*   3. add your style into this file                                    */
+/*                                                                       */
+/* If you like to use the default configuration:                         */
+/*   1. Open to widget options                                           */
+/*   2. Edit youthmedia widget                                           */
+/*   3. Add into Before all images-option: <div id="youthmedia_rss">     */
+/*   4. Add into After all images-option : </div>                        */
+/*   5. That's it, the default settings will be loaded                   */
+
+/* Default settings (if you like to use them) */
+
+/* the container itself */
+#youthmedia {
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+}
+
+/* the links in this container and around the images */
+#youthmedia a {
+	border: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+/* the pictures in this container wrapped with the links */
+#youthmedia a img {
+	width : 70px;
+	height: 70px;
+	border: 1px solid #a1a1a1;
+	margin: 0px 10px 10px 0px;
+}
